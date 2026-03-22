@@ -2,12 +2,12 @@
 {
     public class Cliente
     {
-        public Guid Id { get; set; }
-        public string Nome { get; set; }
-        public string Cpf { get; set; }
-        public string Email { get; set; }
-        public DateTime DataNascimento { get; set; }
-        public StatusCliente Status { get; set; }
+        public Guid Id { get; private set; }
+        public string Nome { get; private set; }
+        public string Cpf { get; private set; }
+        public string Email { get; private set; }
+        public DateTime DataNascimento { get; private set; }
+        public StatusCliente Status { get; private set; }
 
         private readonly List<HistoricoCliente> _historicoClientes = new();
         public IReadOnlyCollection<HistoricoCliente> HistoricoClientes => _historicoClientes;
