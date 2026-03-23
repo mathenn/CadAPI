@@ -1,4 +1,4 @@
-﻿namespace CadAPI
+﻿namespace CadAPI.Domain.Entities
 {
     public class Cliente
     {
@@ -17,7 +17,8 @@
             
         }
 
-        private Cliente(Guid id, string nome, string cpf, string email, DateTime dataNascimento, StatusCliente status)
+        private Cliente(Guid id, string nome, string cpf, string email, 
+                        DateTime dataNascimento, StatusCliente status)
         {
             Id = id;
             Nome = nome;
