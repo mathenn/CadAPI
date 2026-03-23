@@ -43,6 +43,13 @@ public class ClientesController : ControllerBase // classe base otimizada para A
             return StatusCode(500, new { mensagem = "Cliente não encontrado" });
         }
     }
+
+    [HttpGet("{Id}")]
+    public async Task<IActionResult> ObterPorId(int id)
+    {
+        var cliente = await _context.Clientes.FindAsync(id);
+        return cliente == null ? NotFound() : Ok(cliente);
+    }
     
 }
 
