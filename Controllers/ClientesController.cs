@@ -48,7 +48,9 @@ public class ClientesController : ControllerBase // classe base otimizada para A
     public async Task<IActionResult> ObterPorId(int id)
     {
         var cliente = await _context.Clientes.FindAsync(id);
-        return cliente == null ? NotFound() : Ok(cliente);
+        
+        if (cliente == null)
+            return NotFound(new { mensagem = "Cliente não encontrado" });
     }
     
 }
