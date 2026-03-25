@@ -1,8 +1,8 @@
-﻿namespace CadAPI.Domain.Entities.Validation;
+﻿namespace CadAPI.Domain.Validations;
 
 public class CpfValidation
 {
-    public bool ValidarCpf(string cpf)
+    public static bool ValidarCpf(string cpf)
     {
         // Formatação e validação de CPF
         cpf = cpf.Replace(".", "").Replace("-", "").Replace(" ", "");
