@@ -44,4 +44,19 @@ public class CpfValidation
         return digito1 == int.Parse(cpf[9].ToString()) &&
                digito2 == int.Parse(cpf[10].ToString());
     }
+    
+    public static string Formatar(string cpf)
+    {
+        cpf = new string(cpf.Where(char.IsDigit).ToArray());
+            
+        if(cpf.Length == 11)
+            return Convert.ToUInt64(cpf).ToString(@"000\.000\.000\-00");
+
+        return cpf;
+    }
+    
+    public static string RemoverFormatacao(string cpf)
+    {
+        return new string(cpf.Where(char.IsDigit).ToArray());
+    }
 }
