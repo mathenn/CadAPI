@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using CadAPI.Domain.Validations;
 
 namespace CadAPI.Application.DTOs
 {
@@ -8,7 +9,7 @@ namespace CadAPI.Application.DTOs
         [StringLength(100, MinimumLength = 3)]
         public string Nome { get; set; }
         [Required]
-        [CpfValidation] // validação simples
+        [CpfValidation]
         public string Cpf { get; set; }
         [Required]
         [EmailAddress]

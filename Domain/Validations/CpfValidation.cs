@@ -1,6 +1,6 @@
 ﻿namespace CadAPI.Domain.Validations;
 
-public class CpfValidation
+public static class CpfValidation
 {
     public static bool ValidarCpf(string cpf)
     {

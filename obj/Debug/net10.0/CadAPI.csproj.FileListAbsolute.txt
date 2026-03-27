@@ -1,0 +1,9 @@
+C:\Dev\CadAPI\obj\Debug\net10.0\CadAPI.csproj.AssemblyReference.cache
+C:\Dev\CadAPI\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Dev\CadAPI\obj\Debug\net10.0\CadAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\CadAPI\obj\Debug\net10.0\CadAPI.AssemblyInfoInputs.cache
+C:\Dev\CadAPI\obj\Debug\net10.0\CadAPI.AssemblyInfo.cs
+C:\Dev\CadAPI\obj\Debug\net10.0\CadAPI.csproj.CoreCompileInputs.cache
+C:\Dev\CadAPI\obj\Debug\net10.0\CadAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Dev\CadAPI\obj\Debug\net10.0\CadAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Dev\CadAPI\obj\Debug\net10.0\CadAPI.sourcelink.json

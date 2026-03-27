@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CadAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+973ba5d1284d5b8662859c0902d963de9369f5fd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aad6881d5093e4292f7280f105368b47873d617e")]
 [assembly: System.Reflection.AssemblyProductAttribute("CadAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CadAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
